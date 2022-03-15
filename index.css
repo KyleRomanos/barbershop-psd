@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alfa+Slab+One&family=Caveat&family=Lato&family=Lobster+Two&family=Rubik+Mono+One&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+    overflow: none;
+}
+
+
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   height: 5px;
+    border: none;
+    background-color: rgb(243, 247, 247);
+}
+
+#shop {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding-bottom: -10px;
+    margin-bottom: 5px;
+    width: 300px;
+    font-size: 34px;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -1px;
+    word-spacing: -15px;
+}
+
+
+.what-we-offer {
+    background: white;
+    color: rgb(143, 140, 140);
+}
+
+#top {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#what-we-offer-h3 {
+    margin-bottom: 10px;
+}
+#top-p {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    /* width: 80%; */
+}
+
+#top-p2 {
+    font-size: 12px;
+  
+    margin-bottom: 30px;
+    /* width: 50%; */
+}
+
+.offers {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#haircut {
+    width: 230px;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: regular;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+#top-line {
+    color: black;
+    background-color: black;
+}
+
+#hl1 {
+    padding-top: 10px;
+    background-color: black;
+}
+
+#what-we-offer-h3 {
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#offers-h5 {
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+  
+}
+
+#circle {
+    background-color: black;
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ 
+}
+
+#offers-h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#haircut {
+    margin-bottom: 30px;
+}
+
+#haircut-p {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+.services-and-pricing{
+    color: whitesmoke;
+    background-color: rgb(41, 40, 40);;
+    height: 105vh;
+    
+}
+
+.services-and-pricing-h3{
+    font-family: 'Lobster Two', cursive;
+    font-weight: bolder;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+
+
+.hair-stylist {
+
+width: 630px;
+font-size: 10px;
+padding-bottom: 20px;
+height: 300px;
+
+display: flex;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.beard-care {
+    /* width: 50%; */
+    font-size: 10px;
+    /* display: inline-block; */
+    padding: 5px;
+   text-align: left;
+}
+
+
+ul.leaders {
+
+    width: 260px;
+    text-align: left;
+  }
+
+  ul.leaders li {
+    display:        table;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+  }
+  ul.leaders li span {
+    display:        table-cell;
+  }
+  ul.leaders li span:first-child { /* TITLE */
+    position:       relative;
+    overflow:       hidden;      
+  }
+  ul.leaders li span:first-child:after { /* DASHES */
+    content:        "";
+    position:       absolute;
+    bottom:        0.5rem;        /* Set as you want */       
+    margin-left:    0.5em;        /* Keep same for the next span's left padding */
+    width:          100%;
+    border-bottom:  1px dashed rgb(143, 140, 140);
+    font-family: sans-serif;  
+  }
+  ul.leaders li span + span {     /* PRICE */
+    text-align:     right;
+    width:          1%;           /* Trick it */
+    vertical-align: bottom;       /* Keep Price text bottom-aligned */
+    padding-left:   0.5em;
+    font-family: sans-serif;  
+    /* white-space: nowrap;       /* Uncomment if needed */
+  }
+
+  .leaders {
+    font-family: sans-serif;  
+  }
+
+
+
+  #leaders-span {
+    font-family: sans-serif; 
+    font-size: 10px;
+    font-weight: 550;
+
+  }
+
+  #offers-h5-1 {
+      
+      padding-top: 30px;
+      font-size: 16px;
+      margin-bottom: 3px;
+      font-family: 'Lobster Two', cursive;
+  }
+
+  #offers-h5-2 {
+    font-family: 'Lobster Two', cursive;
+    padding-top: 5px;
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+#services-img {
+    height: 300px;
+    padding-right: 100px;
+    
+}
+
+#services-img2 {
+    height: 300px;
+    padding-right: 16px;
+ 
+}
+
+#offers-p2 {
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#offers-p1 {
+    
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-request {
+    background-color: rgb(245, 193, 98);;
+    border: none;
+   padding: 8px 20px;
+   font-family: sans-serif;
+   font-weight: bolder;
+   font-size: 10px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+.btn-request1 {
+    background-color: rgb(245, 193, 98);
+    border: none;
+   padding: 8px 20px;
+   font-family: sans-serif;
+   font-weight: bolder;
+   font-size: 10px;
+   cursor: pointer;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.btn-request:hover, .btn-request1:hover{
+    background-color: rgb(245, 193, 98, 0.8);
+    transition: 0.3s ease;
+}
+
+#slash{
+    background-color: rgb(245, 193, 98);
+    padding-left: 10px;
+    font-weight: bolder;
+    padding-top: 20px;
+    margin-right: 5px;
+    width: 10px;
+    font-size: 10px;
+
+    display: inline;
+    color: black;
+}
+
+#del {
+    margin-right: 5px;
+}
+
+
+
+
+@media (max-width: 800px) {
+
+
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+    }
+
+    .hair-stylist {
+   
+     margin-top: -50px;
+   
+        display: inline;
+       text-align: left;
+        }
+
+
+        #services-img, #services-img2 {
+           display: none;
+        }
+
+    #top {
+        
+        margin-left: auto;
+        margin-right:auto;
+        font-size: 7px;
+        margin-bottom: -20px;
+    }
+
+    #offers-h5-1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .leaders, #leaders, .leaders-span, #hair-stylist-list, .offers-h5-1  {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+
+    #offers-p2, #offers-p1 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hair-beard-styles {
+        text-align: center;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #top-p, #top-p2 {
+        font-size: 8px;
+      
+    }
+
+    #haircut-p {
+        font-size: 8px;
+        width: 100%; 
+    }
+
+    .home-page {
+        overflow-x: none;
+        width: 100%;
+    }
+
+ 
+
+    .foot-h6 {
+        font-size: 10px;
+    }
+#foot-text {
+    font-size: 7px;
+}
+
+
+  }

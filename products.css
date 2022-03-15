@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alfa+Slab+One&family=Caveat&family=Lato&family=Lobster+Two&family=Rubik+Mono+One&display=swap');
+#square {
+    border: 1px solid rgb(240, 240, 240); 
+     height: 141px;
+   padding-top: 15px;
+   padding-left: -5px;
+   padding-right: -5px;
+ }
+ 
+ #square:hover {
+ 
+ cursor: pointer;
+ border: 0.5px solid rgb(245, 193, 98);
+ }
+ 
+ 
+ 
+ #add-btn {
+     width: 100%;
+     text-align: center;
+     background-color: rgb(245, 193, 98);
+     border: 1px solid rgb(245, 193, 98);
+     opacity: 0;
+     color: black;
+     font-weight: bolder;
+     font-size: 9px;
+     bottom: 20px;
+     padding-bottom: 12px;
+    padding-top:10px;
+ 
+     position: relative;
+     cursor: pointer;
+ }
+ 
+ #add-btn:hover{
+     opacity: 0.8;
+     transition: 0.3s ease;
+     background-color: rgb(245, 193, 98);
+ 
+ }
+ 
+ .our-products {
+     background: white;
+     color: rgb(143, 140, 140);
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     
+ }
+ 
+ .products {
+     display: inline-block;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ 
+ #add-bag {
+     margin-right: 3px;
+ 
+ 
+  
+ }
+ 
+ #product-price{
+     text-align: left;
+ }
+ 
+ #products-h5 {
+   
+     padding-top: 10px;
+     color: black;
+     font-weight: bolder;
+     font-size: 10px;
+     text-align: left;
+     font-family: sans-serif;
+     margin-bottom: 3px;
+ }
+
+ #product-price {
+     font-size: 12px;
+    font-weight: regular;
+ }

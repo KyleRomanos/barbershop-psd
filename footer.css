@@ -1,0 +1,153 @@
+.footer {
+    width: 100%;
+    height: 10%;
+    font-size: 10.5px;
+    background-color: rgb(80, 80, 80);
+}
+
+.footer-primary {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+
+#foot-section {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+
+#tag {
+    display: inline-block;
+    font-size: 13px;
+    border: 2px solid rgb(155, 154, 154);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tag:hover {
+    color: rgb(245, 193, 98);
+    border: 2px solid rgb(245, 193, 98);
+}
+
+#foot-h6 {
+    font-size: 11px;
+}
+
+#foot-titles {
+    margin-bottom: 20px;
+}
+
+#foot-email{
+    color: rgb(245, 193, 98);
+    cursor: pointer;
+}
+
+#email-input {
+    justify-content: space-between;
+    width: 80%;
+}
+
+#email-input::placeholder {
+padding: 5px;
+text-align: left;
+
+}
+
+.footer-bottom {
+    background-color: black;
+    color: whitesmoke;
+   
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+}
+
+#foot-socials, #foot-signature{
+
+    display: inline-block;
+    
+    padding-top: 5px;
+    /* width: 100%; */
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    cursor: pointer;
+}
+
+
+
+.footer-bottom-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-icon {
+    background-color: rgb(80, 80, 80);
+    height: 25px;
+    padding: 5px 5px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+    }
+
+    #foot-section {
+        width: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+      
+    }
+
+    #foot-titles {
+        font-size: 12px;
+    }
+
+    #foot-section{
+        font-size: 7px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #foot-h6 {
+        font-size: 9px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #tag {
+        font-size: 6px;
+        padding: 3px;
+    }
+
+    #email-input {
+        width: 100%;
+    }
+
+    #foot-socials{
+        justify-content: space-between;
+        text-align: left;
+
+        margin-left: auto;
+        margin-right:auto;
+        width: 140px;
+    }
+
+    #foot-signature {
+        width: 160px;
+        font-size: 7px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    }
