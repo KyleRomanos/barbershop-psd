@@ -46,6 +46,7 @@ hr {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
 }
 
 #what-we-offer-h3 {
@@ -55,12 +56,13 @@ hr {
     font-size: 12px;
     padding-top: 15px;
     padding-bottom: 5px;
+    font-family: 'Lato', sans-serif;
     /* width: 80%; */
 }
 
 #top-p2 {
     font-size: 12px;
-  
+    font-family: 'Lato', sans-serif;
     margin-bottom: 30px;
     /* width: 50%; */
 }
@@ -72,6 +74,7 @@ hr {
     margin-right: auto;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 #haircut {
     width: 230px;
@@ -129,15 +132,16 @@ hr {
     width: 100%;
     font-size: 11px;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 
 
 .services-and-pricing{
     color: whitesmoke;
+    font-family: 'Lato', sans-serif;
     background-color: rgb(41, 40, 40);;
-    height: 105vh;
-    
+    height: 105vh; 
 }
 
 .services-and-pricing-h3{
@@ -186,6 +190,7 @@ ul.leaders {
     display:        table;
     padding-top: 3.5px;
     padding-bottom: 3.5px;
+    font-family: 'Lato', sans-serif;
   }
   ul.leaders li span {
     display:        table-cell;
@@ -213,15 +218,15 @@ ul.leaders {
   }
 
   .leaders {
-    font-family: sans-serif;  
+    font-family: 'Lato', sans-serif;
   }
 
 
 
   #leaders-span {
-    font-family: sans-serif; 
+    font-family: 'Lato', sans-serif;
     font-size: 10px;
-    font-weight: 550;
+    font-weight: 600;
 
   }
 
@@ -253,38 +258,49 @@ ul.leaders {
 }
 
 #offers-p2 {
-    width: 75%;
+    width: 60%;
     margin-top: 5px;
     margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 #offers-p1 {
-    
+    width: 80%;
+    font-family: 'Lato', sans-serif;
     margin-top: 5px;
     margin-bottom: 20px;
+   
 }
 
+.btn-request a {
+    text-decoration: none;
+}
 .btn-request {
     background-color: rgb(245, 193, 98);;
     border: none;
    padding: 8px 20px;
-   font-family: sans-serif;
+   font-family: 'Lato', sans-serif;
    font-weight: bolder;
    font-size: 10px;
    margin-top: 10px;
    margin-bottom: 20px;
    cursor: pointer;
+   text-decoration: none;
+   text-decoration: none;
 }
 .btn-request1 {
     background-color: rgb(245, 193, 98);
+    color: black;
     border: none;
    padding: 8px 20px;
-   font-family: sans-serif;
+   font-family: 'Lato', sans-serif;
    font-weight: bolder;
    font-size: 10px;
    cursor: pointer;
    margin-top: 10px;
    margin-bottom: 20px;
+   text-decoration: none;
+   
 }
 
 .btn-request:hover, .btn-request1:hover{
@@ -312,8 +328,12 @@ ul.leaders {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 
+    .offers {
+        height: 90vh;
+       
+    }
 
 
     header {
@@ -347,7 +367,8 @@ ul.leaders {
     #offers-h5-1 {
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 75%;
+        text-align: left;
     }
 
     .leaders, #leaders, .leaders-span, #hair-stylist-list, .offers-h5-1  {
@@ -357,7 +378,7 @@ ul.leaders {
     }
 
     #offers-p2, #offers-p1 {
-        width: 40%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -370,7 +391,7 @@ ul.leaders {
     }
 
     #top-p, #top-p2 {
-        font-size: 8px;
+        font-size: 10px;
       
     }
 
@@ -391,6 +412,12 @@ ul.leaders {
     }
 #foot-text {
     font-size: 7px;
+}
+
+.services-and-pricing{
+    color: whitesmoke;
+    background-color: rgb(41, 40, 40);;
+    height: 120vh; 
 }
 
 

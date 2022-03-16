@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <link rel="stylesheet" href="background_styles.css">
       <link rel="stylesheet" href="styles.css">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -15,15 +16,16 @@
       <title>Responsive Navbar</title>
     </head>
     <body>
+        <div class="Front-Page">
       <nav class="navbar">
-          
+ 
         <div class="brand-title">Genter</div>
         
 
         
         <div class="navbar-links">
             <ul>
-                <li><a href="#header">HOME</a></li>
+                <li><a href="#Front-Page">HOME</a></li>
                 <li><a href="#what-we-offer">FEATURES</a></li>
                 <li><a href="#services-and-pricing">ELEMENTS</a></li>
                 <li><a href="#our-products">PAGES</a></li>
@@ -45,9 +47,10 @@
             </a>
         </div>
       </nav>
-
+      <a name="Front-Page"></a>
       <div id="contentWrap">
         <div id="primaryContent">
+           
             <!-- Primary content here  -->
         
 
@@ -89,7 +92,7 @@
     <!-- END CONTENT -->
 
     <!-- BEGIN FOOTER -->
-    <div id="footer-main">
+    <div class="footer-main">
         <!-- Footer Content here  -->
     <div id="clock">
         
@@ -118,7 +121,9 @@
         <P id="foot-text">Telephone : 001-6688-9999</P>
         <P id="foot-text">Email &nbsp &nbsp &nbsp &nbsp &nbsp: contact@sample.com</P>
     </div>
-    </div> <!-- end div footer  -->
+    </div>
+    </div>
+ <!-- end div footer  -->
 
     <div class="what-we-offer">
       <a name="what-we-offer"></a>
@@ -204,7 +209,7 @@
                                       <span id="leaders-span">Hair & Beard Borvo Care</span>
                                       <span id="leaders-span">$125</span>
                                       </li>
-                                      <button type="button" class="btn-request">REQUEST AN APPOINTMENT</button>
+                                      <button type="button" class="btn-request1"> <a style="text-decoration: none; color: black;" href="#book-now">REQUEST AN APPOINTMENT</a></button>
                                       </ul>
                    
                                   
@@ -246,7 +251,7 @@
                                       <span id="leaders-span">Hair & Beard Borvo Care</span>
                                       <span id="leaders-span">$125</span>
                                       </li>
-                                      <button type="button" class="btn-request1">REQUEST AN APPOINTMENT</button>
+                                      <button type="button" class="btn-request1"> <a style="text-decoration: none; color: black;" href="#book-now">REQUEST AN APPOINTMENT</a></button>
                                       </ul>
                                  
                                 
@@ -379,9 +384,9 @@
                     <img id='booking-img' src="./pictures/booking-beard.png"  />
                     <figcaption>
                         <h6 class="fig-h6">Genter Barbershop</h6>
-                        <p class="fig-key"><span id="fig-span">Address  &nbsp: </span> 8th floor, 39 Brooklyn Heights, New York<br>
-                            <span id="fig-span">Phone &nbsp&nbsp&nbsp&nbsp: </span> 001-6688-999<br>
-                            <span id="fig-span">Email &nbsp&nbsp&nbsp&nbsp&nbsp: </span> contact@site.com
+                        <p class="fig-key"><span id="fig-span">Address  &nbsp: </span> &nbsp 8th floor, 39 Brooklyn Heights, New York<br>
+                            <span id="fig-span">Phone &nbsp&nbsp&nbsp&nbsp&nbsp: </span> &nbsp 001-6688-999<br>
+                            <span id="fig-span">Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </span> &nbsp contact@site.com
 
                         </p>
                     </figcaption>

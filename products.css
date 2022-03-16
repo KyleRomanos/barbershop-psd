@@ -21,11 +21,12 @@
      background-color: rgb(245, 193, 98);
      border: 1px solid rgb(245, 193, 98);
      opacity: 0;
+     font-family: 'lato', sans-serif;
      color: black;
      font-weight: bolder;
      font-size: 9px;
      bottom: 20px;
-     padding-bottom: 12px;
+     padding-bottom: 13px;
     padding-top:10px;
  
      position: relative;
@@ -72,11 +73,16 @@
      font-weight: bolder;
      font-size: 10px;
      text-align: left;
-     font-family: sans-serif;
+     font-family: "lato", sans-serif;
      margin-bottom: 3px;
  }
 
  #product-price {
      font-size: 12px;
-    font-weight: regular;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
+ }
+
+ @media (max-width: 700px) {
+
  }

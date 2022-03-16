@@ -51,7 +51,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .slide-data {
@@ -197,7 +197,7 @@ font-weight: bold;
  position: relative;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
 .slider {
   font-size: 10px;
