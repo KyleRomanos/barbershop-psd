@@ -3,6 +3,7 @@
     height: 10%;
     font-size: 10.5px;
     background-color: rgb(80, 80, 80);
+    font-family: 'Lato', sans-serif;
 }
 
 .footer-primary {
@@ -17,6 +18,7 @@
     margin-left: auto;
     margin-right: auto;
     font-family: Helvetica, 'FontAwesome', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #tag {
@@ -27,6 +29,7 @@
     margin: 2px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Lato', sans-serif;
 }
 
 #tag:hover {
@@ -36,6 +39,7 @@
 
 #foot-h6 {
     font-size: 11px;
+    font-family: 'Lato', sans-serif;
 }
 
 #foot-titles {
@@ -50,6 +54,7 @@
 #email-input {
     justify-content: space-between;
     width: 80%;
+    font-family: 'Lato', sans-serif, "FontAwesome";
 }
 
 #email-input::placeholder {
@@ -98,17 +103,20 @@ text-align: left;
 @media only screen and (max-width: 700px) {
     .footer {
         width: 100%;
+        
     }
 
     #foot-section {
         width: 150px;
         margin-left: 5px;
         margin-right: 5px;
-      
+        margin-top: 1px;
     }
 
     #foot-titles {
         font-size: 12px;
+        margin-top: -10px;
+        margin-bottom: 10px;
     }
 
     #foot-section{
@@ -119,8 +127,9 @@ text-align: left;
 
     #foot-h6 {
         font-size: 9px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 1px;
+
     }
 
     #tag {
@@ -149,5 +158,23 @@ text-align: left;
         margin-right: auto;
     }
 
+    #foot-p1 {
+        margin-bottom: 10px;
+    }
+    #foot-p2 {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        height: 30%;
+    }
+
+    #newsletter-p {
+        padding-bottom: 20px;
+    }
+
+    #email-input {
+        margin-top: 10px;
+    }
 
     }

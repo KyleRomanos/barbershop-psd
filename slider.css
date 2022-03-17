@@ -218,7 +218,7 @@ font-weight: bold;
   border-radius: 50%;
   width: 170px;
   margin-bottom: 30px;
-  margin-top: -20px;
+  margin-top: -50px;
 }
 
 #slider-h5 {
@@ -237,7 +237,7 @@ font-weight: bold;
   }
 
   .slider .dots label {
-    margin-bottom: -50px;
+    margin-bottom: 5px;
     height: 25px;
    
   }

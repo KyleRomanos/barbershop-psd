@@ -22,6 +22,14 @@
     padding: 5px;
 }
 
+.artist-list {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    justify-content: space-between;
+}
+
 #artist-text, #artist-h5, #artist-p, figcaption {
     text-align: left;
 }
@@ -44,7 +52,7 @@
 @media only screen and (max-width: 800px) {
 
     #artist-pic {
-        height: 160px;
+        height: 140px;
         width: 110px;
         margin-bottom: 10px;
         margin-left: auto;
@@ -52,9 +60,34 @@
     }
 
     #artist-text, #artist-h5, #artist-p, figcaption {
-        text-align: center;
+        justify-content: space-between;
         font-size: 12px;
+       margin-left: 15px;;
+    }
+
+    .artists {
+        /* display: flex; */
+        justify-content: space-between;
+        text-align: center;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .artist-list {
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    #artist {
+        
+        text-align: center;
+        padding-bottom: 20px;
     }
     
+    .meet-our-artist {
+        height: 100%;
+        width: 100%;
+    }
 
 }
