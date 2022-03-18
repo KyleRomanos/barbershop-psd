@@ -54,6 +54,7 @@ hr {
 }
 #top-p {
     font-size: 12px;
+
     padding-top: 15px;
     padding-bottom: 5px;
     font-family: 'Lato', sans-serif;
@@ -79,7 +80,7 @@ hr {
 #haircut {
     width: 230px;
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: regular;
    padding-left: 40px;
    padding-right: 40px;
@@ -130,7 +131,7 @@ hr {
 
 #haircut-p {
     width: 100%;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
@@ -159,7 +160,7 @@ hr {
 .hair-stylist {
 
 width: 630px;
-font-size: 10px;
+font-size: 12px;
 padding-bottom: 20px;
 height: 300px;
 
@@ -173,7 +174,7 @@ margin-right: auto;
 
 .beard-care {
     /* width: 50%; */
-    font-size: 10px;
+    font-size: 12px;
     /* display: inline-block; */
     padding: 5px;
    text-align: left;
@@ -225,7 +226,7 @@ ul.leaders {
 
   #leaders-span {
     font-family: 'Lato', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
 
   }
@@ -281,7 +282,7 @@ ul.leaders {
    padding: 8px 20px;
    font-family: 'Lato', sans-serif;
    font-weight: bolder;
-   font-size: 10px;
+   font-size: 12px;
    margin-top: 10px;
    margin-bottom: 20px;
    cursor: pointer;
@@ -295,7 +296,7 @@ ul.leaders {
    padding: 8px 20px;
    font-family: 'Lato', sans-serif;
    font-weight: bolder;
-   font-size: 10px;
+   font-size: 12px;
    cursor: pointer;
    margin-top: 10px;
    margin-bottom: 20px;
@@ -315,7 +316,7 @@ ul.leaders {
     padding-top: 20px;
     margin-right: 5px;
     width: 10px;
-    font-size: 10px;
+    font-size: 12px;
 
     display: inline;
     color: black;
@@ -360,7 +361,7 @@ ul.leaders {
         
         margin-left: auto;
         margin-right:auto;
-        font-size: 7px;
+        font-size: 12px;
         margin-bottom: -20px;
     }
 
@@ -391,12 +392,12 @@ ul.leaders {
     }
 
     #top-p, #top-p2 {
-        font-size: 10px;
+        font-size: 12px;
       
     }
 
     #haircut-p {
-        font-size: 8px;
+        font-size: 12px;
         width: 100%; 
     }
 
@@ -404,15 +405,6 @@ ul.leaders {
         overflow-x: none;
         width: 100%;
     }
-
- 
-
-    .foot-h6 {
-        font-size: 10px;
-    }
-#foot-text {
-    font-size: 7px;
-}
 
 .services-and-pricing{
     color: whitesmoke;

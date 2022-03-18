@@ -68,7 +68,7 @@
   font-family: "Anton", serif;
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .slide-data p {
@@ -200,7 +200,7 @@ font-weight: bold;
 @media only screen and (max-width: 700px) {
 
 .slider {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .slide-data h1 {
@@ -211,7 +211,7 @@ font-weight: bold;
 .slide-data p {
 
  
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 #slider-pic {
@@ -230,7 +230,7 @@ font-weight: bold;
   }
   
   #slider-p {
-    font-size: 10px;
+    font-size: 12px;
   
     text-align: center;
     font-weight: 200;
