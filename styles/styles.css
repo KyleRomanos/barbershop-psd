@@ -45,6 +45,7 @@ body {
 
 .navbar-links li a {
     display: block;
+    font-weight: 590;
     text-decoration: none;
     color: white;
     padding: 1rem;

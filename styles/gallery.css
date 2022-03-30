@@ -37,6 +37,7 @@ background-color: white;
     margin-top: 20px;
    padding-top: 6px;
    padding-bottom: 6px;
+   cursor: pointer;
 }
 
 #btn-more:hover {

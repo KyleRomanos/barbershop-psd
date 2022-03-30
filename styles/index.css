@@ -142,7 +142,7 @@ hr {
     color: whitesmoke;
     font-family: 'Lato', sans-serif;
     background-color: rgb(41, 40, 40);;
-    height: 105vh; 
+    height: 110vh; 
 }
 
 .services-and-pricing-h3{
@@ -233,7 +233,7 @@ ul.leaders {
 
   #offers-h5-1 {
       
-      padding-top: 30px;
+      padding-top: 10px;
       font-size: 16px;
       margin-bottom: 3px;
       font-family: 'Lobster Two', cursive;
@@ -248,14 +248,13 @@ ul.leaders {
 
 #services-img {
     height: 300px;
-    padding-right: 100px;
-    
+    padding-right: 100px;  
 }
 
 #services-img2 {
     height: 300px;
-    padding-right: 16px;
- 
+    padding-right: 18px;
+    margin-top: 5px;
 }
 
 #offers-p2 {
@@ -329,7 +328,7 @@ ul.leaders {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
 
     .offers {
         height: 90vh;
