@@ -13,12 +13,16 @@ body {
     padding: 0;
 }
 
+.landing-page {
+    height: 110%;
+}
+
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: black;
     color: white;
     font-family: 'Lato', sans-serif;
 }
@@ -52,7 +56,7 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: black;
     transition: 0.3s ease;
     color: rgb(245, 193, 98);
 }
@@ -97,7 +101,7 @@ body {
     margin-right: auto;
     vertical-align: middle;
     padding-top: 90px;
-    background-color: rgb(41, 40, 40);
+    background-color: black;
     color: whitesmoke;
 }
 
@@ -107,7 +111,7 @@ body {
     margin-bottom: -3px;
     font-family: 'Lato', sans-serif;
     padding-top: 5px;
-    background-color: rgb(41, 40, 40);
+    background-color: black;
     color: whitesmoke;
 }
 
@@ -120,10 +124,10 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 142px;
-    padding-bottom: 20px;
-    background-color: rgb(41, 40, 40);
+    padding-bottom: 33px;
+    background-color: black;
     color: whitesmoke;
-
+   
 }
 
 .foot-h6 {
@@ -134,7 +138,7 @@ body {
 }
 
 .Front-Page {
-    height: 100vh;
+    height: 110vh;
 }
 
 

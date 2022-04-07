@@ -32,6 +32,7 @@
 
 #artist-text, #artist-h5, #artist-p, figcaption {
     text-align: left;
+    font-family:'Lato', sans-serif;
 }
 
 #meet-our-h3 {
@@ -64,6 +65,7 @@
         justify-content: space-between;
         font-size: 12px;
        margin-left: 15px;;
+
     }
 
     .artists {
